@@ -1,0 +1,25 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "strict_min_version": "58.0a1"
+    }
+  },
+  "background": {
+      "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "browser_style": true,
+    "default_title": "GOTOzenBiz",
+    "default_popup": "tabs.html"
+  },
+  "description": "A list of methods you can perform on a tab.",
+  "homepage_url": "",
+  "manifest_version": 2,
+  "name": "GOTOzenBiz",
+  "permissions": [
+    "tabs",
+    "clipboardRead",
+    "clipboardWrite"
+  ],
+  "version": "1.0"
+}
