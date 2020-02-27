@@ -12,14 +12,19 @@
     "default_title": "GOTOzenBiz",
     "default_popup": "tabs.html"
   },
-  "description": "A list of methods you can perform on a tab.",
-  "homepage_url": "",
+  "description": "buncha zenbiz stuff",
+  "homepage_url": "http://github.com/deyvidm",
   "manifest_version": 2,
   "name": "GOTOzenBiz",
   "permissions": [
+    "notifications",
     "tabs",
     "clipboardRead",
     "clipboardWrite"
   ],
-  "version": "1.0"
+  "version": "1.0",
+
+  "icons": {
+    "48": "z.png"
+  }
 }
