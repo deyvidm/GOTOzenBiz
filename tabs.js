@@ -7,6 +7,7 @@ function notify(text){
     "message": text
   });
 }
+
 function showSuccess() {
   document.querySelector("#success").classList.remove("hidden");
   document.querySelector("#error").classList.add("hidden");
@@ -134,7 +135,6 @@ function parseAndGo() {
 
 // lmao this listens for ANY click event (within the pop)
 document.addEventListener("click", (e) => {
-
   if (e.target.id === "copy") {
     copyHandler()
   }

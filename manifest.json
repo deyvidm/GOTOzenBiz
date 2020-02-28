@@ -4,18 +4,15 @@
       "strict_min_version": "58.0a1"
     }
   },
-  "background": {
-      "scripts": ["background.js"]
-  },
   "browser_action": {
     "browser_style": true,
     "default_title": "GOTOzenBiz",
     "default_popup": "tabs.html"
   },
-  "description": "buncha zenbiz stuff",
-  "homepage_url": "http://github.com/deyvidm",
+  "description": "Navigate zenreach business dashboard pages with limited ease.",
+  "homepage_url": "http://github.com/deyvidm/goto-zenbiz",
   "manifest_version": 2,
-  "name": "GOTOzenBiz",
+  "name": "goto-zenbiz",
   "permissions": [
     "notifications",
     "tabs",
@@ -23,7 +20,6 @@
     "clipboardWrite"
   ],
   "version": "1.0",
-
   "icons": {
     "48": "z.png"
   }
